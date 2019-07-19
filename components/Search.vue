@@ -19,9 +19,9 @@
 
 	
 	methods:{
-		movieSearch(){
+		characterSearch(){
 			if (this.query=="") {	
-				alert("No movies found.");
+				alert("Enter a character name");
 			}
 			else{
 				this.$emit('requestSearch', this.query);
